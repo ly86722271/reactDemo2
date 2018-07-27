@@ -153,12 +153,12 @@ body {
 div#wrapper {
   height: 100vh;
   position: relative;
-  background: linear-gradient(#f3f6f9 0%, #d1ddeb 100%);
+  background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%)
 }
 
 /* HEADER  */
 header {
-  background-color: #50bcb6;
+  background-color: #4096ee;
   padding: 0.5rem 0 0.5rem 2%;
 }
 
@@ -282,7 +282,7 @@ footer {
   width: 100%;
   text-align: center;
   padding: 1em;
-  background-color: #50bcb6;
+  background-color: #4096ee;
   color: #fff;
   font-size: 0.9rem;
 }
