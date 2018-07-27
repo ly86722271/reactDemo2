@@ -1,10 +1,10 @@
-import React, { Component } from '../../../Users/Peter/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
-import './Styles/App.css';
+import './styles/App.css';
 
-import Header from './Demo1/Header';
-import Footer from './Demo1/Footer';
-import WeatherChannel from './Demo1/WeatherChannel';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import WeatherChannel from './components/WeatherChannel';
 
 export default class App extends Component {
   render() {
